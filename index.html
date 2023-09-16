@@ -1,15 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book List</title>
+    <title>Book Data Table</title>
 </head>
 <body>
-    <button id="fetchBooks">Fetch Books</button>
-    <div id="bookList"></div>
-
+    <button id="fetchButton">Fetch Data</button>
+    <table id="bookTable" style="display: none;">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Publication Date</th>
+                <!-- Add more table headers as needed -->
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Table data will be inserted here dynamically -->
+        </tbody>
+    </table>
     <script src="script.js"></script>
 </body>
 </html>
-
